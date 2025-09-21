@@ -7,8 +7,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: checkout tomcat-users.xml
-     uses: actions/checkout@v2
-			  
+     uses: actions/checkout@v2		  
    - name: List Project files and version
      run: |
         ls -lrt
